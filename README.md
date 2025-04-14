@@ -1,9 +1,20 @@
-# Envios de mensagens através do WhatsApp
+# WhatsApp Sender
 
-## Documentação do projeto
+## Descrição
+Script em Python que envia mensagens em massa pelo WhatsApp.
 
-### 1. Repositório do projeto
-Primeiramente, no diretório desejado, clone o repositório do projeto:
+
+## Requisitos
+- Python 3.8+
+- Git
+- Conta no Supabase
+- Conta no Z-API
+
+
+## Instalação
+
+### Clone o repositório
+No diretório desejado, clone o repositório do projeto:
 ```bash
 git clone https://github.com/Henriquex25/whatsapp-sender.git
 ```
@@ -13,7 +24,7 @@ Acesse a pasta criada na etapa anterior:
 cd ./whatsapp-sender
 ```
 
-### 2. Preparação do ambiente
+### Prepare o ambiente
 Agora vamos criar e ativar o ambiente virtual:
 ```bash
 # Criar ambiente virtual
@@ -26,8 +37,27 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-### 3. Instalando dependências
+### Instale as dependências
 Para que o projeto funcione corretamente, devemos instalar as dependências executando o seguinte comando:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Configuração
+1. Renomeie o arquivo `.env.example` para `.env`
+2. Preencha com as suas credenciais
+
+## Uso
+Execute o script principal:
+```bash
+python main.py
+
+# Ou
+
+python3 main.py
+```
+
+## Funcionalidades
+- Conexão com API do Supabase
+- Tratamento de dados
+- Envio de mensagens via Z-API

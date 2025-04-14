@@ -5,7 +5,7 @@ import re
 
 class ZAPIClient:
     def __init__(self):
-        instance = os.getenv('ZAPI_INSTANCE')
+        instance = os.getenv('ZAPI_INSTANCE_ID')
 
         self._base_url = f"https://api.z-api.io/instances/{instance}"
         self._headers = {"Content-Type": "application/json"}
