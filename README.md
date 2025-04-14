@@ -44,8 +44,11 @@ pip install -r requirements.txt
 ```
 
 ## Configuração
-1. Renomeie o arquivo `.env.example` para `.env`
-2. Preencha com as suas credenciais
+Copie o arquivo `.env.example` para `.env`
+```bash
+cp .env.example .env
+```
+Preencha com as suas credenciais
 
 ## Uso
 Execute o script principal:
