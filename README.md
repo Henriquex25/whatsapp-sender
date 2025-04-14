@@ -44,11 +44,11 @@ pip install -r requirements.txt
 ```
 
 ## Configuração
-Copie o arquivo `.env.example` para `.env`
+1. Copie o arquivo `.env.example` para `.env`
 ```bash
 cp .env.example .env
 ```
-Preencha o arquivo `.env` com as suas credenciais
+2. Preencha o arquivo `.env` com as suas credenciais
 
 ## Prepare o Supabase
 1. Crie o banco de dados do seu projeto
