@@ -25,7 +25,7 @@ cd ./whatsapp-sender
 ```
 
 ### Prepare o ambiente
-Agora vamos criar e ativar o ambiente virtual:
+Agora crie e ative o ambiente virtual:
 ```bash
 # Criar ambiente virtual
 python -m venv venv
@@ -38,7 +38,7 @@ venv\Scripts\activate
 ```
 
 ### Instale as dependências
-Para que o projeto funcione corretamente, devemos instalar as dependências executando o seguinte comando:
+Para que o projeto funcione corretamente, instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
