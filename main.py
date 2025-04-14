@@ -11,7 +11,7 @@ def main() -> None:
     supabase = SupabaseClient()
     zapi = ZAPIClient()
 
-    # busca dados
+    # busca os dados
     data = supabase.fetch_data("sent_messages")
 
     if not data:
