@@ -75,7 +75,7 @@ create table sent_messages (
 ```
 3. Popule a tabela `messages`
 ```sql
-INSERT INTO "public"."messages" ("body") VALUES ('Olá, [customer_name]!
+INSERT INTO "messages" ("body") VALUES ('Olá, [customer_name]!
 
 Esta é a mensagem de teste enviada pelo script do candidato Sergio Henrique.
 
@@ -84,7 +84,7 @@ Obrigado! 😄');
 
 4. Popule a tabela `sent_messages`
 ```sql
-INSERT INTO "public"."sent_messages" ("cell_number", "customer_name", "message", "sent") VALUES ('11979522889', 'Henrique', '1', 'false'), ('11991421839', 'Marcelo', '1', 'false'), ('11940804809', 'B2BFlow', '1', 'false');
+INSERT INTO "sent_messages" ("cell_number", "customer_name", "message", "sent") VALUES ('11979522889', 'Henrique', '1', 'false'), ('11991421839', 'Marcelo', '1', 'false'), ('11940804809', 'B2BFlow', '1', 'false');
 ```
 
 ## Uso
