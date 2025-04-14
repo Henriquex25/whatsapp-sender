@@ -14,12 +14,12 @@ Script em Python que envia mensagens em massa pelo WhatsApp.
 ## Instalação
 
 ### Clone o repositório
-No diretório desejado, clone o repositório do projeto:
+1. No diretório desejado, clone o repositório do projeto:
 ```bash
 git clone https://github.com/Henriquex25/whatsapp-sender.git
 ```
 
-Acesse a pasta criada na etapa anterior:
+2. Acesse a pasta criada na etapa anterior:
 ```bash
 cd ./whatsapp-sender
 ```
